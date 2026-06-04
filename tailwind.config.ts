@@ -7,6 +7,7 @@ export default {
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
 		"./src/**/*.{ts,tsx}",
+			"./1780581491816745494.html"
 	],
 	prefix: "",
 	theme: {
@@ -16,6 +17,9 @@ export default {
 			screens: {
 				'2xl': '1400px'
 			}
+		},
+		fontFamily: {
+			manrope: ['Manrope', 'sans-serif'],
 		},
 		extend: {
 			colors: {
